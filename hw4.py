@@ -10,7 +10,7 @@ print(new_value_int)
 
 value_int= int(input("Введите число:"))
 
-new_value_int= value_int = 1 if value_int < 100 else 0
+new_value_int = 1 if value_int < 100 else 0
 
 print(new_value_int)
 
@@ -19,7 +19,7 @@ print(new_value_int)
 #3
 value_int= int(input("Введите число:"))
 
-new_value_int= value_int=True if value_int < 100 else False
+new_value_int= True if value_int < 100 else False
 
 print(new_value_int)
 
