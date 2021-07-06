@@ -60,14 +60,17 @@
 # print(sub_str)
 
 #8
-my_str = 'qwerty'
-new_my_str = []
+#my_str = "qwerty"
+# my_list = []
+# if len(my_str) % 2:
+#     my_str = my_str + '_'
+# for index in range(len(my_str)//2):
+#     my_list.append(my_str[2 * index:2 * index + 2])
 
-
-
-
-
-
-
-
+#9
+my_list = [2,4,1,5,3,9,0,7]
+value = 0
+for index in range(len(my_list)-1):
+    if my_list[index] > my_list[index-1] + my_list[(index+1) % len(my_list)]:
+        value = value +1
 
